@@ -209,6 +209,18 @@ http://localhost:5173
 ```
 
 ---
+# Demo Images
+## Application Interface
+
+![Main UI](src/assets/Demo_Images/Main_UI.PNG)
+
+## Code Input screenshot
+
+![Code Input](src/assets/Demo_Images/Code_Input.PNG)
+
+## Code Explanation screenshot
+
+![Explanation](src/assets/Demo_Images/Code_Explanation.PNG)
 
 # Future Improvements
 
