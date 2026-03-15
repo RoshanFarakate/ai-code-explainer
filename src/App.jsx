@@ -27,8 +27,6 @@ function App() {
         background: "#f4f6f8",
       }}
     >
-      {/* Header */}
-
       <Box
         sx={{
           textAlign: "center",
@@ -46,8 +44,6 @@ function App() {
           Understand Python & JavaScript code instantly
         </Typography>
       </Box>
-
-      {/* Main Layout */}
 
       <Box
         sx={{

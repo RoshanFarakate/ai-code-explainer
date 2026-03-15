@@ -24,7 +24,6 @@ The system leverages a **Large Language Model (LLM)** through the OpenRouter API
   * Logic
   * Complexity
 * **Syntax highlighting** for input code
-* **History panel** to view multiple submitted explanations
 * **Loading indicator** while the AI processes the request
 * Clean, modern **React + Material UI interface**
 
@@ -77,7 +76,7 @@ OpenRouter API
      │
      │ Sends prompt + code to LLM
      ▼
-LLM Model (StepFun / GPT / Mistral)
+LLM Model (StepFun)
      │
      │ AI generates explanation
      ▼
@@ -222,19 +221,7 @@ http://localhost:5173
 
 ![Explanation](src/assets/Demo_Images/Code_Explanation.PNG)
 
-# Future Improvements
-
-Potential enhancements include:
-
-* AI-generated **optimized code suggestions**
-* **Diff view** comparing original vs optimized code
-* **AST-based code parsing** for deeper analysis
-* Additional language support (Java, C++, Go)
-* Export explanations as documentation
-
----
-
 # Author
 
 Roshan Farakate
-Backend Engineer | Java | Spring Boot | Distributed Systems
+Backend Engineer | Java | Spring Boot

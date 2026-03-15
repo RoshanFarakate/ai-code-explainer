@@ -26,8 +26,6 @@ function ExplanationPanel({ history }) {
 
         {history.map((item) => (
           <Box key={item.id} mb={4}>
-            {/* Code Section */}
-
             <Typography
               variant="subtitle2"
               fontWeight="bold"
@@ -48,9 +46,7 @@ function ExplanationPanel({ history }) {
             >
               {item.code}
             </SyntaxHighlighter>
-
-            {/* Explanation Section */}
-
+            
             <Typography
               variant="subtitle2"
               fontWeight="bold"
